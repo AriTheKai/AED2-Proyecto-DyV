@@ -2,9 +2,53 @@
 
 Created: March 3, 2026 4:12 PM
 
-# 🗒️ Índice
+# ✨ INFORME DE PRÁCTICAS ✨
 
-- Aclaraciones del Informe ‼️
+          ┊         ┊       ┊   ┊    ┊        ┊
+          ┊         ┊       ┊   ┊   ˚★⋆｡˚  ⋆
+          ┊         ┊       ┊   ⋆
+          ┊         ┊       ★⋆
+          ┊ ◦       ┊
+          ★⋆      ┊ .  ˚
+                    ˚★
+
+## Profesor ~ Héctor Muñoz Ortiz
+
+                                            ˗ˏˋ ★ ˎˊ˗
+
+## Andrés Liza Pozo
+
+                                        Grupo 2.3, andres.lizap@um.es
+
+## María Abellán Marín
+
+                                        Grupo 2.3, m.abellanmarin@um.es
+
+***⠀⠀⠀⠀⠀.　　　　　　　　　　⠀⠀⠀✦ ⠀ ⠀　　　　　　　　　　　　　　⠀⠀⠀⠀⠀* ⠀⠀⠀.　　　　　　　　　　. ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀✦⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀ ⠀⠀⠀⠀⠀⠀.　　　　　　　　　　　　　.　　　ﾟ .　　　　　　　　　　　　　. 　　　　　　　　　　　　　　　✦ 　　　　　,　　　　　　　.
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+　　　　　　*　　　　　　　　　　　.
+.　　　　　　　　　　　　　. 　　✦⠀　   　　　,　　　　　　　　　*
+　　　　　⠀　　　　⠀　　,
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀.　　　　　 　　⠀　　　⠀.　
+　　˚　　　⠀　⠀  　　,　　　　　　.
+　　　　　　　　　　　　　.
+　　　　　　⠀　　⠀  　　　　　⠀✦⠀　
+　　　　　　*　　　　　　　　　　　　　　　　　　.
+　　　　.　　　　.　　　⠀
+　　　　　　　　　　　.
+　　　　　　　
+　　　˚　　　　　　　　ﾟ　　　　　.
+　.⠀　　⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀,
+　　　*　　⠀.
+　　　　　.　　　　　　　　　　⠀✦
+　˚　　　　　　　　　　　　　　*
+.⠀ 　　　　　　　　　　.　　　　　　　　.
+　　　　　✦⠀　   　　　,　　    　　　　　　　　.
+⠀⠀⠀⠀⠀⠀.　　　　　　　　　　⠀⠀⠀✦ ⠀ ⠀***　　　　　　　　　　　
+
+# ‼️ Antes del Informe
+
+- Aclaraciones previas 🫡
     
     ¡Holi! Este informe/memoria de prácticas ha sido realizado por un humano (yo :3) a quien le gusta mucho usar los guiones largos (—) y los puntos y comas (;) para insertar aclaraciones. Te prometo que no soy ChatGPT, simplemente me parece bonito usarlos (no sé dar una explicación a eso, pero queda “guay”).
     
@@ -12,6 +56,22 @@ Created: March 3, 2026 4:12 PM
     
     Atte. Aris y Andy <3
     
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣤⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡤⠤⠶⢦⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀               ⠀⠀⠀⠀⢀⠀⣀⠀⢀⡤⢈⣡⡴⠶⠶⠶⣤⣄⠀⢤⡀⢀⡀⢀⡀⠀⠀⠀⠀
+⠀⠀⠀                       ⠁⢸⡏⣸⠋⣰⠏⣰⠟⢡⡴⠖⠚⠶⣤⡉⢷⡀⢳⡈⢷⡌⡿⠈⠀⠀⠀
+⠀⠀⠀⠀               ⠀⠀⠀⠀⠀⢿⠀⡟⢰⡏⣰⠏⣰⠞⠛⢢⠈⣧⠘⡇⠈⡇⠸⠃⠀⠀⠀⠀⠀
+⠀⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠈⠃⢺⡇⢺⡄⢿⡀⠢⠜⣠⡏⢠⡏⠸⠃⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⠘⣷⡈⢳⣌⡙⠳⠟⢋⣴⠏⢀⡄⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⠘⢷⣌⠻⢦⣌⣙⡛⠛⣉⣡⡴⠋⣀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⢼⣤⡙⠷⣦⠌⠉⠙⠋⢉⣡⣴⠾⣋⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⣦⡌⠛⠀⠀⠀⠀⠀⠀⠀⠈⠐⠚⠋⡁⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
 # 📚 Enunciado del problema.
 
