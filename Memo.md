@@ -1,83 +1,46 @@
-# ✨ INFORME DE PRÁCTICAS ✨
+<h1 align="center">
+  ✨ INFORME DE PRÁCTICAS ✨ <br> <br> 
+  . ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.</span> <br> <br> <br>
+       Profesor ~ Héctor Muñoz Ortiz <br>  <br>
+           ˗ˏˋ ★ ˎˊ˗ <br>  <br>
+          ~ Miembros del Grupo ~ <br> <br>
+          Andrés Liza Pozo -> _Grupo 2.3, andres.lizap@um.es_ <br>
+          María Abellán Marín -> _Grupo 2.3, m.abellanmarin@um.es_ <br> <br> <br> <br>
+⠀⠀⠀⠀⠀⠀⠀⣀⡄⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⡀⡀⠂⠂⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠐⢿⠓⠀⢀⡴⡏⠀⠀⠀⠀⠀⠀⣀⠔⢂⠁⠁⠀⠀⡐⠈⠀⠀⠀
+⠀⠀⠹⡒⠤⣀⡀⠀⢀⡴⠋⢠⠇⠀⠀⠀⠠⠐⠈⠀⠀⠀⠀⡀⠐⠁⡐⠁⠀⠀⠄
+⠀⠀⠀⠱⡀⠀⠉⠑⠋⠀⠀⣸⠀⠀⠐⠈⠀⠀⠀⠀⠀⢀⠄⠁⢀⠂⠀⠀⠀⠨⠀
+⠀⠀⠀⠀⢱⡄⠀⠀⠀⠀⠀⠉⠒⠤⣀⡀⠀⠀⠀⠀⡄⠁⠀⡀⠠⠁⠀⠀⠀⠁⠀
+⠀⠀⠀⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣈⠵⠦⡠⠈⠀⠀⠀⡐⠁⠀⠀⠀⠂⠀⠀
+⢀⡤⠋⣀⣀⣀⣤⠀⠀⠀⢰⠋⠉⠀⠀⠀⢀⠂⠀⠀⠀⠈⠠⠀⠀⠀⠀⠰⡁⠀⠀
+⠈⠉⠁⠀⠀⠀⠀⢧⠀⠀⡏⠀⠀⠀⠀⠔⠁⠀⠀⠀⠀⡐⠀⠀⠀⠀⠀⠅⠀⠀⠀
+⠀⢐⣶⣆⠀⠀⢠⠈⢇⢰⠃⠀⠀⠄⠁⠀⠀⢀⠀⢀⠂⠀⠀⣰⡄⠀⠂⠐⠀⠀⠀
+⠀⠈⠙⠀⠀⠀⣏⣧⠈⠟⠀⢀⠁⠀⠀⠀⠽⡿⠆⠇⠀⠀⢀⣿⣿⣦⣶⣶⠟⠀⠀
+⠀⠀⠀⠀⣀⣸⣿⣯⢧⠤⣤⣦⣴⠦⠀⠀⠀⠁⠀⠀⠛⠿⣿⣿⣿⣿⣿⡁⠀⠀⠀
+⠀⠙⠯⡻⣿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠰⣄⣠⡇⠀⠂⠀⠀⢸⣿⡿⠛⠛⠿⣆⠀⠀
+⠀⠀⠀⠈⢻⣿⣿⣿⣿⣿⠁⠀⠀⠀⣠⢿⣿⠟⠒⠀⠀⠀⠸⠊⠁⠀⢐⠀⠀⠀⠀
+⠀⠀⠀⠀⡾⣿⠿⠺⢝⡯⢧⠀⠀⠀⠀⠀⠻⠀⠀⠀⠂⠀⠀⠀⠀⡐⠂⠀⠀⠠⠁
+⠀⠀⠀⢼⠓⠁⠀⠀⠀⠉⠺⠆⠀⠀⠀⠀⠀⠀⠀⡸⠀⠀⢀⢿⠐⠀⠀⠀⡐⠁⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠂⠀⠀⡜⡌⡇⠀⠀⡐⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢟⡒⠒⠛⠁⠀⠘⠒⠒⢲⡶⠂⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣖⠀⠈⢢⠀⠀⠀⠀⡤⠛⠁⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⠉⠀⢠⠇⢀⡤⣀⠌⢳⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡿⠊⠁⠀⠈⠳⣼⡄⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠂⠈⠉⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡆⠀⣀⠀⠀⢀⣄⡀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠶⢾⣿⣟⠁⠀⠀⠺⡟⠃
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡏⢉⠓⠀⠀⠀⠀⠀
 
-          ┊         ┊       ┊   ┊    ┊        
-          ┊         ┊       ┊   ┊   ˚★⋆｡˚  ⋆
-          ┊         ┊       ┊   ⋆
-          ┊         ┊       ★⋆
-          ┊ ◦       ┊
-          ★⋆        ┊ .  ˚
-                   ˚★
+</h1>
 
-# Profesor ~ Héctor Muñoz Ortiz
-
-                                            ˗ˏˋ ★ ˎˊ˗
-
-# Andrés Liza Pozo
-
-                                        Grupo 2.3, andres.lizap@um.es
-
-## María Abellán Marín
-
-                                        Grupo 2.3, m.abellanmarin@um.es
-
-***⠀⠀⠀⠀⠀.　　　　　　　　　　⠀⠀⠀✦ ⠀ ⠀　　　　　　　　　　　　　　⠀⠀⠀⠀⠀* ⠀⠀⠀.　　　　　　　　　　. ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀✦⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀ ⠀⠀⠀⠀⠀⠀.　　　　　　　　　　　　　.　　　ﾟ .　　　　　　　　　　　　　. 　　　　　　　　　　　　　　　✦ 　　　　　,　　　　　　　.
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-　　　　　　*　　　　　　　　　　　.
-.　　　　　　　　　　　　　. 　　✦⠀　   　　　,　　　　　　　　　*
-　　　　　⠀　　　　⠀　　,
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀.　　　　　 　　⠀　　　⠀.　
-　　˚　　　⠀　⠀  　　,　　　　　　.
-　　　　　　　　　　　　　.
-　　　　　　⠀　　⠀  　　　　　⠀✦⠀　
-　　　　　　*　　　　　　　　　　　　　　　　　　.
-　　　　.　　　　.　　　⠀
-　　　　　　　　　　　.
-　　　　　　　
-　　　˚　　　　　　　　ﾟ　　　　　.
-　.⠀　　⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀,
-　　　*　　⠀.
-　　　　　.　　　　　　　　　　⠀✦
-　˚　　　　　　　　　　　　　　*
-.⠀ 　　　　　　　　　　.　　　　　　　　.
-　　　　　✦⠀　   　　　,　　    　　　　　　　　.
-⠀⠀⠀⠀⠀⠀.　　　　　　　　　　⠀⠀⠀✦ ⠀ ⠀***　　　　　　　　　　　
-　　　　.　　　　.　　　⠀
-　　　　　　　　　　　.
-　　　　　　　
-　　　˚　　　　　　　　ﾟ　　　　　.
-　.⠀　　⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀‍⠀,
-　　　*　　⠀.
-　　　　　.　　　　　　　　　　⠀✦
-　˚　　　　　　　　　　　　　　*
-.⠀ 　　　　　　　　　　.　　　　　　　　.
-　　　　　✦⠀　   　　　,　　    　　　　　　　　.
-⠀⠀⠀⠀⠀⠀.　　　　　　　　　　⠀⠀⠀✦ ⠀ ⠀***　　　　　　　　　　　
 
 # ‼️ Antes del Informe
 
 ### Aclaraciones previas 🫡
-    
-    ¡Holi! Este informe/memoria de prácticas ha sido realizado por un humano (yo :3) a quien le gusta mucho usar los guiones largos (—) y los puntos y comas (;) para insertar aclaraciones. Te prometo que no soy ChatGPT, simplemente me parece bonito usarlos (no sé dar una explicación a eso, pero queda “guay”).
-    
-    Dicho lo cual, espero que disfrutes leyendo nuestro informe de prácticas.
-    
-    Atte. Aris y Andy <3
-    
-
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣤⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡤⠤⠶⢦⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀               ⠀⠀⠀⠀⢀⠀⣀⠀⢀⡤⢈⣡⡴⠶⠶⠶⣤⣄⠀⢤⡀⢀⡀⢀⡀⠀⠀⠀⠀
-⠀⠀⠀                       ⠁⢸⡏⣸⠋⣰⠏⣰⠟⢡⡴⠖⠚⠶⣤⡉⢷⡀⢳⡈⢷⡌⡿⠈⠀⠀⠀
-⠀⠀⠀⠀               ⠀⠀⠀⠀⠀⢿⠀⡟⢰⡏⣰⠏⣰⠞⠛⢢⠈⣧⠘⡇⠈⡇⠸⠃⠀⠀⠀⠀⠀
-⠀⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠈⠃⢺⡇⢺⡄⢿⡀⠢⠜⣠⡏⢠⡏⠸⠃⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⠘⣷⡈⢳⣌⡙⠳⠟⢋⣴⠏⢀⡄⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⠘⢷⣌⠻⢦⣌⣙⡛⠛⣉⣡⡴⠋⣀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⢼⣤⡙⠷⣦⠌⠉⠙⠋⢉⣡⣴⠾⣋⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⣦⡌⠛⠀⠀⠀⠀⠀⠀⠀⠈⠐⠚⠋⡁⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀
+¡Holi!  <br> <br> 
+Este informe/memoria de prácticas ha sido realizado por un humano (yo :3) a quien le gusta mucho usar los guiones largos (—) y los puntos y comas (;) para insertar aclaraciones. Te prometo que no soy ChatGPT, simplemente me parece bonito usarlos (no sé dar una explicación a eso, pero queda “guay”). <br> <br>
+Dicho lo cual, espero que disfrutes leyendo nuestro informe de prácticas. <br> <br>
+Atte. Aris y Andy <3⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
 # 📚 Enunciado del problema.
@@ -92,14 +55,9 @@ la solución es $4$, en las posiciones $5, 6, 13$ y $14$
 
 # 🖍️ Diseño.
 
-<aside>
-🐌
-
 Al diseñar el algoritmo que resuelve este problema nos hemos basado en dos pseudocódigos previamente creados por nosotros, uno **iterativo** y otro con la estrategia de “***Divide y Vencerás***”
 
-</aside>
-
-## Diseño Iterativo.
+## 🐌 Diseño Iterativo.
 
 Para una cadena $A$ de $n$ caracteres, el algoritmo va agrupando los caracteres de 3 en 3 y comparando que:
 
@@ -150,7 +108,7 @@ FUNCIÓN encontrarSubcadenasIterativo(A, n, S):
 FIN FUNCIÓN
 ```
 
-## Diseño DyV .
+## 🦔 Diseño DyV .
 
 El algoritmo de **Divide y Vencerás** se basa en la idea de:
 
