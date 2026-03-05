@@ -208,7 +208,7 @@ El proyecto tiene asociados los siguientes ficheros:
 
 En la carpeta [inserte enlace a la carpeta] tenemos los ficheros de los casos de prueba aleatorios.
 ### ¿Cómo funciona?
-Cada función genera una cadena aleatoria con longitud de 5, 10, 20, 50, 100 o 1000 caracteres. A estas cadenas les aplica los algoritmos de [DyV](MemoriaProyecto.md#L114) e [Iteración](MemoriaProyecto.md#L63) 
+Cada función genera una cadena aleatoria con longitud de 5, 10, 20, 50, 100 o 1000 caracteres. A estas cadenas les aplica los algoritmos de [DyV](## 🦔 Diseño DyV .) e [Iteración](MemoriaProyecto.md#L63) 
 # 🌑 Contraste.
 
 # 🃏 Conclusión y Valoración Personal.
