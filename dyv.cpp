@@ -1,39 +1,6 @@
-#include <iostream>
-#include <set>
-#include <list>
+#include "dyv.hpp"
 
 using namespace std;
-
-struct Solucion
-{
-	int n_subcadenas;
-	set<int> posiciones;
-};
-
-/*
-* ENTRADA:
-*   A: Cadena de caracteres (pre: que su longitud sea 3)
-*   inicio: Índice de inicio de la subcadena a analizar
-*   S: Conjunto de caracteres que se pueden usar para formar subcadenas
-* SALIDA:
-*   Un booleano que indica si la subcadena de A es válida (3 caracteres distintos y pertenecientes a S)
-*/
-bool esValida(string A, int inicio, set<int> S)
-{
-	char c1 = A[inicio];
-	char c2 = A[inicio + 1];
-	char c3 = A[inicio + 2];
-
-	// Verificar que los caracteres sean distintos
-	if (c1 == c2 || c1 == c3 || c2 == c3)
-		return false;
-
-	// Verificar que los caracteres estén en el conjunto S
-	if (S.find(c1) == S.end() || S.find(c2) == S.end() || S.find(c3) == S.end())
-		return false;
-
-	return true;
-}
 
 Solucion combinar(Solucion izquierda, Solucion derecha)
 {
@@ -55,7 +22,7 @@ Solucion combinar(Solucion izquierda, Solucion derecha)
 * FUNCIONAMIENTO:
 *	Se verifica si las subcadenas que cruzan la mitad (de longitud 3) son válidas y, en caso afirmativo, se actualiza la solución.
 */
-void verificarCruzadas(Solucion &solucion, string A, int inicio, int final, int mitad, set<int> S)
+void verificarCruzadas(Solucion &solucion, string A, int inicio, int final, int mitad, set<char> S)
 {
 	for (int i = mitad - 2; i < mitad; i++)
 	{
@@ -76,7 +43,7 @@ void verificarCruzadas(Solucion &solucion, string A, int inicio, int final, int 
  * SALIDA:
  *   Una Solucion que contiene las subcadenas que cumplen las condiciones y el número de subcadenas encontradas
  */
-Solucion DyV(string A, int inicio, int final, set<int> S)
+Solucion DyV(string A, int inicio, int final, set<char> S)
 {
 
 	int n = final - inicio + 1;
@@ -98,21 +65,4 @@ Solucion DyV(string A, int inicio, int final, set<int> S)
 	verificarCruzadas(solucion, A, inicio, final, mitad, S);
 
 	return solucion;
-}
-
-int main()
-{
-	string A = "amievilarchivist?";
-	set<int> S = {'a', 'm', 'i', 'e', 'v', 'l', 'r', 'c', 'h', 's', 't'};
-	Solucion resultado = DyV(A, 0, A.size() - 1, S);
-
-	cout << "Número de subcadenas válidas: " << resultado.n_subcadenas << endl;
-	cout << "Posiciones de las subcadenas válidas: ";
-	for (int pos : resultado.posiciones)
-	{
-		cout << pos << " ";
-	}
-	cout << endl;
-
-	return 0;
 }
