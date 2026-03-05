@@ -193,11 +193,11 @@ El proyecto tiene asociados los siguientes ficheros:
     Salida esperada: ${1}$, { ${0}$ } <br> <br>
     
 - **PEOR CASO:** Cadena de más de $3$ caracteres que NO puede formar ninguna subcadena <br>
-    _Ejemplo:_ " ${aadcdbcb}$ " <br>
+    _Ejemplo:_ " ${aaabbc}$ " <br>
     Salida esperada: $0$, {CONJUNTO VACÍO} <br> <br>
     
 - **CASO INTERMEDIO:** Existe una única subcadena, dentro de una cadena de más de $3$ caracteres. <br>
-    _Ejemplo:_ " ${ddeeabced}$ " <br>
+    _Ejemplo:_ " ${aabbde}$ " <br>
     Salida esperada: ${1}$, { ${4}$ } <br> <br>
     
 - **CASO TOTAL:** Toda la cadena introducida puede ser dividida en subcadenas. <br>

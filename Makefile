@@ -1,19 +1,10 @@
-all: testsAleatorios
+all: testsAleatorios testsUnitarios
 
-testsAleatorios: common.o dyv.o iterativo.o testsAleatorios.o
-	g++ common.o dyv.o iterativo.o testsAleatorios.o
+testsAleatorios: common.cpp dyv.cpp iterativo.cpp testsAleatorios.cpp common.hpp dyv.hpp iterativo.hpp
+	g++ common.cpp dyv.cpp iterativo.cpp testsAleatorios.cpp -o testsAleatorios
 
-common.o: common.cpp common.hpp
-	g++ -c common.cpp
-
-dyv.o: dyv.cpp dyv.hpp common.hpp
-	g++ -c dyv.cpp
-
-iterativo.o: iterativo.cpp iterativo.hpp common.hpp
-	g++ -c iterativo.cpp
-
-testsAleatorios.o: testsAleatorios.cpp dyv.hpp iterativo.hpp common.hpp
-	g++ -c testsAleatorios.cpp
+testsUnitarios: common.cpp dyv.cpp iterativo.cpp testsUnitarios.cpp common.hpp dyv.hpp iterativo.hpp
+	g++ common.cpp dyv.cpp iterativo.cpp testsUnitarios.cpp -o testsUnitarios
 
 clean:
-	rm -f common.o dyv.o iterativo.o testsAleatorios.o a.out
+	rm -f testsAleatorios testsUnitarios a.out
