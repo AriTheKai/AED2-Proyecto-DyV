@@ -10,7 +10,14 @@ struct Solucion
 	set<int> posiciones;
 };
 
-// PRECONDICIÓN: A tiene solo 3 caracteres
+/*
+* ENTRADA:
+*   A: Cadena de caracteres (pre: que su longitud sea 3)
+*   inicio: Índice de inicio de la subcadena a analizar
+*   S: Conjunto de caracteres que se pueden usar para formar subcadenas
+* SALIDA:
+*   Un booleano que indica si la subcadena de A es válida (3 caracteres distintos y pertenecientes a S)
+*/
 bool esValida(string A, int inicio, set<int> S)
 {
 	char c1 = A[inicio];
@@ -28,7 +35,6 @@ bool esValida(string A, int inicio, set<int> S)
 	return true;
 }
 
-// Combina dos soluciones (izquierda y derecha)
 Solucion combinar(Solucion izquierda, Solucion derecha)
 {
 	Solucion solucion = {0, set<int>()};
@@ -38,7 +44,17 @@ Solucion combinar(Solucion izquierda, Solucion derecha)
 	return solucion;
 }
 
-// Verifica y añade subcadenas que cruzan la mitad
+/* ENTRADA:
+*	solucion: referencia a la solución a actualizar con las subcadenas válidas que crucen la mitad
+*	A: Cadena de caracteres
+*	inicio: Índice de inicio de la subcadena a analizar
+*	final: Índice de final de la subcadena a analizar
+*	mitad: Índice de la mitad de la cadena
+*	S: Conjunto de caracteres que se pueden usar para formar subcadenas
+
+* FUNCIONAMIENTO:
+*	Se verifica si las subcadenas que cruzan la mitad (de longitud 3) son válidas y, en caso afirmativo, se actualiza la solución.
+*/
 void verificarCruzadas(Solucion &solucion, string A, int inicio, int final, int mitad, set<int> S)
 {
 	for (int i = mitad - 2; i < mitad; i++)
