@@ -187,13 +187,29 @@ El proyecto tiene asociados los siguientes ficheros:
 # 📣 Validación.
 
 ## Casos de Prueba.
-
-- [inserte casos de prueba]
-
+  **_Cadena S->_**  " $a, b, c, d, e$ " <br><br>
+- **MEJOR CASO:** Cadena de $3$ caracteres que pueden formar una subcadena <br>
+    _Ejemplo:_ " $acd$ " <br>
+    Salida esperada: ${1}$, { ${0}$ } <br> <br>
+    
+- **PEOR CASO:** Cadena de más de $3$ caracteres que NO puede formar ninguna subcadena <br>
+    _Ejemplo:_ " ${aadcdbcb}$ " <br>
+    Salida esperada: $0$, {CONJUNTO VACÍO} <br> <br>
+    
+- **CASO INTERMEDIO:** Existe una única subcadena, dentro de una cadena de más de $3$ caracteres. <br>
+    _Ejemplo:_ " ${ddeeabced}$ " <br>
+    Salida esperada: ${1}$, { ${4}$ } <br> <br>
+    
+- **CASO TOTAL:** Toda la cadena introducida puede ser dividida en subcadenas. <br>
+    _Ejemplo:_ " ${abcde}$ " <br>
+    Salida esperada: ${3}$, { ${0, 1, 2}$ } <br><br>
+ 
 ## Casos aleatorios.
 
-[inserte casos de prueba]
-
+En la carpeta [inserte enlace a la carpeta] tenemos los ficheros de los casos de prueba aleatorios.
+### ¿Cómo funciona?
+Cada función genera una cadena aleatoria con longitud de 5, 10, 20, 50, 100 o 1000 caracteres. A estas cadenas les aplica los algoritmos de [DyV](MemoriaProyecto.md#L114) e [Iteración](MemoriaProyecto.md#L63) 
 # 🌑 Contraste.
 
 # 🃏 Conclusión y Valoración Personal.
+## Uso de la IA
