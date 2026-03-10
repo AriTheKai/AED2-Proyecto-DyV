@@ -188,10 +188,18 @@ El proyecto tiene asociados los siguientes ficheros:
 
 ## Casos de Prueba.
   **_Cadena S->_**  " $a, b, c, d, e$ " <br><br>
-- **MEJOR CASO:** Cadena de $3$ caracteres que pueden formar una subcadena <br>
+- **MEJOR CASO VÁLIDO:** Cadena de $3$ caracteres que pueden formar una subcadena <br>
     _Ejemplo:_ " $acd$ " <br>
     Salida esperada: ${1}$, { ${0}$ } <br> <br>
     
+- **CASO DEMASIADO CORTO:** Cadena de menos de $3$ caracteres
+    _Ejemplo:_ " $ab$ " <br>
+    Salida esperada: CADENA DEMASIADO CORTA. <br> <br>
+
+- **MEJOR CASO INVÁLIDO:** Cadena de $3$ caracteres que no pertenecen a $S$
+    _Ejemplo:_ " $zyx$ " <br>
+    Salida esperad: $0$, {CONJUNTO VACÍO}
+
 - **PEOR CASO:** Cadena de más de $3$ caracteres que NO puede formar ninguna subcadena <br>
     _Ejemplo:_ " ${aaabbc}$ " <br>
     Salida esperada: $0$, {CONJUNTO VACÍO} <br> <br>
