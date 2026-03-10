@@ -44,7 +44,7 @@ Atte. Aris y Andy <3⠀<br>
 ˗ˏˋ ★ ˎˊ
 <br> 
 ### ÍNDICE
-[inserte índice]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+[inserte índice]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br> <br>⠀⠀⠀⠀⠀⠀⠀⠀
 
 # 📚 Enunciado del problema.
 
@@ -54,11 +54,11 @@ $A = abbfabcddfcbbade$ <br> $n=16$
 
 Si consideramos un conjunto de cinco caracteres <br>$S={a, b, c, d, e}$
 
-La solución es $4$, en las posiciones $5, 6, 13$ y $14$
+La solución es $4$, en las posiciones $5, 6, 13$ y $14$ <br> <br> <br>
 
 # 🖍️ Diseño.
 
-Al diseñar el algoritmo que resuelve este problema nos hemos basado en dos pseudocódigos previamente creados por nosotros, uno **iterativo** y otro con la estrategia de “***Divide y Vencerás***”
+Al diseñar el algoritmo que resuelve este problema nos hemos basado en dos pseudocódigos previamente creados por nosotros, uno **iterativo** y otro con la estrategia de “***Divide y Vencerás***” <br> <br> <br>
 
 ## 🐌 Diseño Iterativo.
 
@@ -109,8 +109,8 @@ FUNCIÓN encontrarSubcadenasIterativo(A, n, S):
 
         DEVOLVER subcadenas, posiciones
 FIN FUNCIÓN
-```
-
+``` 
+<br> <br> <br>
 ## 🦔 Diseño DyV .
 
 El algoritmo de **Divide y Vencerás** se basa en la idea de:
@@ -175,15 +175,15 @@ FUNCIÓN encontrarSubcadenasDyV(A, inicio, fin, S)
 
 FIN FUNCIÓN
 ```
-
+<br> <br> <br>
 # 🔍 Análisis teórico.
 
-
+<br> <br> <br>
 # 🐤 Implementación.
 El proyecto tiene asociados los siguientes ficheros:
 - **main.cpp** ~ Fichero principal donde está todo el código en C++. <br>
     _Este fichero se encuentra en: <br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/main.cpp_
-
+<br> <br> <br>
 # 📣 Validación.
 
 ## Casos de Prueba.
@@ -198,7 +198,7 @@ El proyecto tiene asociados los siguientes ficheros:
 
 - **MEJOR CASO INVÁLIDO:** Cadena de $3$ caracteres que no pertenecen a $S$
     _Ejemplo:_ " $zyx$ " <br>
-    Salida esperad: $0$, {CONJUNTO VACÍO}
+    Salida esperad: $0$, {CONJUNTO VACÍO} <br> <br>
 
 - **PEOR CASO:** Cadena de más de $3$ caracteres que NO puede formar ninguna subcadena <br>
     _Ejemplo:_ " ${aaabbc}$ " <br>
@@ -217,7 +217,8 @@ El proyecto tiene asociados los siguientes ficheros:
 En la carpeta [inserte enlace a la carpeta] tenemos los ficheros de los casos de prueba aleatorios.
 ### ¿Cómo funciona?
 Cada función genera una cadena aleatoria con longitud de 5, 10, 20, 50, 100 o 1000 caracteres. A estas cadenas les aplica los algoritmos de DyV e Iteración
+<br> <br> <br>
 # 🌑 Contraste.
-
+<br> <br> <br>
 # 🃏 Conclusión y Valoración Personal.
 ## Uso de la IA
