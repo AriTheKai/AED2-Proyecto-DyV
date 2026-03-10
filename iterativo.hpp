@@ -5,4 +5,4 @@
 
 Solucion iterativo(string A, set<char> S);
 
-#endif // ITERATIVO_HPP
+#endif

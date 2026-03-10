@@ -16,4 +16,4 @@ bool esValida(string A, int inicio, set<char> S);
 string imprimirConjunto(const set<char>& S);
 string imprimirPosiciones(const set<int>& posiciones);
 
-#endif // COMMON_HPP
+#endif

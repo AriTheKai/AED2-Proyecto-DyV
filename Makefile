@@ -7,4 +7,4 @@ testsUnitarios: common.cpp dyv.cpp iterativo.cpp testsUnitarios.cpp common.hpp d
 	g++ common.cpp dyv.cpp iterativo.cpp testsUnitarios.cpp -o testsUnitarios
 
 clean:
-	rm -f testsAleatorios testsUnitarios a.out
+	rm -f testsAleatorios testsUnitarios

@@ -26,25 +26,25 @@ bool esValida(string A, int inicio, set<char> S)
 }
 
 string imprimirConjunto(const set<char>& S) {
-    string resultado = "{ ";
+    string resultado = "{";
     bool primero = true;
     for (char c : S) {
         if (!primero) resultado += ", ";
         resultado += c;
         primero = false;
     }
-    resultado += " }";
+    resultado += "}";
     return resultado;
 }
 
 string imprimirPosiciones(const set<int>& posiciones) {
-    string resultado = "{ ";
+    string resultado = "{";
     bool primero = true;
     for (int pos : posiciones) {
         if (!primero) resultado += ", ";
         resultado += to_string(pos);
         primero = false;
     }
-    resultado += " }";
+    resultado += "}";
     return resultado;
 }
