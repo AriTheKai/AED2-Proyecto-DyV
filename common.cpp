@@ -8,7 +8,7 @@
  * SALIDA:
  *   Un booleano que indica si la subcadena de A es válida (3 caracteres distintos y pertenecientes a S)
  */
-bool esValida(string A, int inicio, set<char> S)
+bool esValida(const string& A, int inicio, const set<char>& S)
 {
 	char c1 = A[inicio];
 	char c2 = A[inicio + 1];

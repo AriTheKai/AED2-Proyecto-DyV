@@ -1,6 +1,6 @@
 #include "iterativo.hpp"
 
-Solucion iterativo(string A, set<char> S)
+Solucion iterativo(const string& A, const set<char>& S)
 {
     int n = A.length();
     Solucion solucion = {0, set<int>()};

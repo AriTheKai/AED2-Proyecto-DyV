@@ -4,7 +4,7 @@
 #include "common.hpp"
 
 Solucion combinar(Solucion izquierda, Solucion derecha);
-void verificarCruzadas(Solucion &solucion, string A, int inicio, int final, int mitad, set<char> S);
-Solucion DyV(string A, int inicio, int final, set<char> S);
+void verificarCruzadas(Solucion &solucion, const string& A, int inicio, int final, int mitad, const set<char>& S);
+Solucion DyV(const string& A, int inicio, int final, const set<char>& S);
 
 #endif

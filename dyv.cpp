@@ -22,7 +22,7 @@ Solucion combinar(Solucion izquierda, Solucion derecha)
 * FUNCIONAMIENTO:
 *	Se verifica si las subcadenas que cruzan la mitad (de longitud 3) son válidas y, en caso afirmativo, se actualiza la solución.
 */
-void verificarCruzadas(Solucion &solucion, string A, int inicio, int final, int mitad, set<char> S)
+void verificarCruzadas(Solucion &solucion, const string& A, int inicio, int final, int mitad, const set<char>& S)
 {
 	for (int i = mitad - 2; i < mitad; i++)
 	{
@@ -43,7 +43,7 @@ void verificarCruzadas(Solucion &solucion, string A, int inicio, int final, int 
  * SALIDA:
  *   Una Solucion que contiene las subcadenas que cumplen las condiciones y el número de subcadenas encontradas
  */
-Solucion DyV(string A, int inicio, int final, set<char> S)
+Solucion DyV(const string& A, int inicio, int final, const set<char>& S)
 {
 
 	int n = final - inicio + 1;

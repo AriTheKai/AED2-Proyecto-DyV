@@ -3,3 +3,20 @@ a.out
 *.o
 testsAleatorios
 testsUnitarios
+tiempos
+
+# C/C++ build artifacts
+*.out
+*.exe
+*.obj
+*.so
+*.a
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.pyc
+
+# Generated data and plots
+resultados.csv
+*.pdf

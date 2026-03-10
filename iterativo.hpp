@@ -3,6 +3,6 @@
 
 #include "common.hpp"
 
-Solucion iterativo(string A, set<char> S);
+Solucion iterativo(const string& A, const set<char>& S);
 
 #endif

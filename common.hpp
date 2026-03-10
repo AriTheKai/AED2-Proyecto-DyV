@@ -12,7 +12,7 @@ struct Solucion
     set<int> posiciones;
 };
 
-bool esValida(string A, int inicio, set<char> S);
+bool esValida(const string& A, int inicio, const set<char>& S);
 string imprimirConjunto(const set<char>& S);
 string imprimirPosiciones(const set<int>& posiciones);
 

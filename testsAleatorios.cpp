@@ -10,7 +10,7 @@ using namespace std;
 
 const string caracteres = "abcdefghijklmnopqrstuvwxyz";
 
-string generarCadena(int longitud, set<char> S)
+string generarCadena(int longitud, const set<char>& S)
 {
     string cadena;
 
@@ -29,9 +29,8 @@ string generarCadena(int longitud, set<char> S)
 set<char> generarConjunto()
 {
     set<char> S;
-    int n = rand() % 3 + 3; // Entre 3 y 5 caracteres
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < 5; i++)
     {
         char c = caracteres[rand() % caracteres.size()];
         S.insert(c);

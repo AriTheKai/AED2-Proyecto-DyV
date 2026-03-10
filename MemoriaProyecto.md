@@ -194,7 +194,7 @@ El proyecto tiene asociados los siguientes ficheros:
     
 - **CASO DEMASIADO CORTO:** Cadena de menos de $3$ caracteres
     _Ejemplo:_ " $ab$ " <br>
-    Salida esperada: CADENA DEMASIADO CORTA. <br> <br>
+    Salida esperada: $0$, {CONJUNTO VACÍO}. <br> <br>
 
 - **MEJOR CASO INVÁLIDO:** Cadena de $3$ caracteres que no pertenecen a $S$
     _Ejemplo:_ " $zyx$ " <br>

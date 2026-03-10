@@ -10,7 +10,7 @@ using namespace std;
 
 set<char> S = {'a', 'b', 'c', 'd', 'e'};
 
-void ejecutarTest(string nombreTest, string A, Solucion esperada)
+void ejecutarTest(string nombreTest, const string& A, Solucion esperada)
 {
 
     Solucion solucionIterativo = iterativo(A, S);
