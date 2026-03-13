@@ -222,3 +222,51 @@ Cada función genera una cadena aleatoria con longitud de 5, 10, 20, 50, 100 o 1
 <br> <br> <br>
 # 🃏 Conclusión y Valoración Personal.
 ## Uso de la IA
+
+# Análisis teórico
+El análisis teórico de la memoria debe ser realizado por @AriTheKai.
+
+# 🔬 Análisis experimental
+Se han considerado tamaños de cadena del tipo $n = 1000 * 2^k$ con $k = 0, 1, ..., 10$. Para cada tamaño de cadena se han generado 10 casos de prueba aleatorios y se han medido sus tiempos de ejecución y calculado su mediana. \
+
+Cada caso de prueba se compone de un **"mejor caso"** y un **"peor caso"** con respecto al tiempo de ejecución. Siendo de este modo el mejor caso aquel en el que la cadena no forma ninguna subcadena válida: $aaaaa...$, y el peor caso aquel en el que la cadena forma el máximo número de subcadenas válidas: $abcdeabcde....$. Las funciones utilizadas son las siguientes, encontradas en el fichero [tiempos.cpp](https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/tiempos.cpp)
+
+```cpp
+string generarMejorCaso(int longitud) {
+
+    string cadena;
+
+    for (int i = 0; i < longitud; i++)
+    {
+        char c = 'a'; // Genera solo el caracter 'a'
+        cadena += c;
+    }
+
+    return cadena;
+
+}
+```
+
+```cpp
+string generarPeorCaso(int longitud) {
+
+    string cadena;
+
+    for (int i = 0; i < longitud; i++)
+    {
+        char c = 'a' + (i % 5); // Genera caracteres ciclicos de 'a' a 'e'
+        cadena += c;
+    }
+
+    return cadena;
+
+}
+```
+
+En la siguiente imagen se muestran los resultados obtenidos para ambos casos. Esta gráfica se ha realizado usando el script de Python en el fichero [regresion.py](https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/regresion.py). También mostramos la misma gráfica pero con una escala logarítmica en el eje de las ordenadas para apreciar mejor la diferencia entre ambos casos.
+
+![Gráfica de tiempos](assets/ajuster_mejor.jpg)
+![Gráfica de tiempos con escala logarítmica](assets/ajuster_mejor_log.jpg)
+
+
+
