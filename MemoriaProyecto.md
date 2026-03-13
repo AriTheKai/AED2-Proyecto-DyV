@@ -222,9 +222,7 @@ Cada función genera una cadena aleatoria con longitud de 5, 10, 20, 50, 100 o 1
 <br> <br> <br>
 # 🔍 Análisis teórico.
 El tiempo del algoritmo en el que se basa este codigo viene dado por la ecuación: [Teniendo en cuenta que _inicio_ = 'i'  y  _fin_ = f]
-<div align="center">
 $n = f - i + 1$
-</div>
 Al dividirlo en $\lfloor \frac{(i+f)}{2} \lfloor$ se crean dos subproblemas, el izquierdo y el derecho. De esta manera tenemos que:
 $t(n) = t(n_1) + t(n_2)+ f(n) \rarrow t(n)$ 
 
