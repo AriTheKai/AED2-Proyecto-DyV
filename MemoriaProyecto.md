@@ -111,6 +111,7 @@ FUNCIÓN encontrarSubcadenasIterativo(A, n, S):
 FIN FUNCIÓN
 ``` 
 <br> <br> <br>
+
 ## 🦔 Diseño DyV .
 
 El algoritmo de **Divide y Vencerás** se basa en la idea de:
@@ -176,14 +177,13 @@ FUNCIÓN encontrarSubcadenasDyV(A, inicio, fin, S)
 FIN FUNCIÓN
 ```
 <br> <br> <br>
-# 🔍 Análisis teórico.
 
-<br> <br> <br>
 # 🐤 Implementación.
 El proyecto tiene asociados los siguientes ficheros:
 - **main.cpp** ~ Fichero principal donde está todo el código en C++. <br>
     _Este fichero se encuentra en: <br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/main.cpp_
 <br> <br> <br>
+
 # 📣 Validación.
 
 ## Casos de Prueba.
@@ -218,18 +218,14 @@ En la carpeta [inserte enlace a la carpeta] tenemos los ficheros de los casos de
 ### ¿Cómo funciona?
 Cada función genera una cadena aleatoria con longitud de 5, 10, 20, 50, 100 o 1000 caracteres. A estas cadenas les aplica los algoritmos de DyV e Iteración
 <br> <br> <br>
-# 🌑 Contraste.
-<br> <br> <br>
-# 🃏 Conclusión y Valoración Personal.
-## Uso de la IA
 
-# Análisis teórico
+# 🔍 Análisis teórico
 El análisis teórico de la memoria debe ser realizado por @AriTheKai.
 
 # 🔬 Análisis experimental
 Se han considerado tamaños de cadena del tipo $n = 1000 * 2^k$ con $k = 0, 1, ..., 10$. Para cada tamaño de cadena se han generado 10 casos de prueba aleatorios y se han medido sus tiempos de ejecución y calculado su mediana. \
 
-Cada caso de prueba se compone de un **"mejor caso"** y un **"peor caso"** con respecto al tiempo de ejecución. Siendo de este modo el mejor caso aquel en el que la cadena no forma ninguna subcadena válida: $aaaaa...$, y el peor caso aquel en el que la cadena forma el máximo número de subcadenas válidas: $abcdeabcde....$. Las funciones utilizadas son las siguientes, encontradas en el fichero [tiempos.cpp](https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/tiempos.cpp)
+Cada caso de prueba se compone de un **"mejor caso"** y un **"peor caso"** con respecto al tiempo de ejecución. Siendo de este modo el mejor caso aquel en el que la cadena no forma ninguna subcadena válida: $aaaaa...$, y el peor caso aquel en el que la cadena forma el máximo número de subcadenas válidas: $abcdeabcde...$. Las funciones utilizadas son las siguientes, encontradas en el fichero [tiempos.cpp](https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/tiempos.cpp)
 
 ```cpp
 string generarMejorCaso(int longitud) {
@@ -265,8 +261,15 @@ string generarPeorCaso(int longitud) {
 
 En la siguiente imagen se muestran los resultados obtenidos para ambos casos. Esta gráfica se ha realizado usando el script de Python en el fichero [regresion.py](https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/regresion.py). También mostramos la misma gráfica pero con una escala logarítmica en el eje de las ordenadas para apreciar mejor la diferencia entre ambos casos.
 
-![Gráfica de tiempos](assets/ajuster_mejor.jpg)
-![Gráfica de tiempos con escala logarítmica](assets/ajuster_mejor_log.jpg)
+| Gráfica de tiempos | Gráfica de tiempos con escala logarítmica |
+|---|---|
+| ![Gráfica de tiempos](assets/ajuster_mejor.jpg) | ![Gráfica de tiempos con escala logarítmica](assets/ajuster_mejor_log.jpg) |
+
+# 🌑 Contraste.
+<br> <br> <br>
+
+# 🃏 Conclusión y Valoración Personal.
+## Uso de la IA
 
 
 
