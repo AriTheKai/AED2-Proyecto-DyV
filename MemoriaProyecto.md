@@ -219,8 +219,12 @@ En la carpeta [inserte enlace a la carpeta] tenemos los ficheros de los casos de
 Cada función genera una cadena aleatoria con longitud de 5, 10, 20, 50, 100 o 1000 caracteres. A estas cadenas les aplica los algoritmos de DyV e Iteración
 <br> <br> <br>
 
-# 🔍 Análisis teórico
-El análisis teórico de la memoria debe ser realizado por @AriTheKai.
+<br> <br> <br>
+# 🔍 Análisis teórico.
+El tiempo del algoritmo en el que se basa este codigo viene dado por la ecuación: [Teniendo en cuenta que _inicio_ = 'i'  y  _fin_ = f] <br>
+$n = f - i + 1$ <br>
+Al dividirlo en $\lfloor i+f / 2 \lfloor$ se crean dos subproblemas, el izquierdo y el derecho. De esta manera tenemos que:
+$t(n) = t(n_1) + t(n_2)+ f(n) \rightarrow t(n)$ 
 
 # 🔬 Análisis experimental
 En este apartado se estudia el comportamiento temporal del algoritmo **DyV** mediante medidas empíricas sobre entradas de distinto tamaño.
