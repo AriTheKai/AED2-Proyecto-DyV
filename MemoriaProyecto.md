@@ -223,9 +223,16 @@ Cada función genera una cadena aleatoria con longitud de 5, 10, 20, 50, 100 o 1
 El análisis teórico de la memoria debe ser realizado por @AriTheKai.
 
 # 🔬 Análisis experimental
-Se han considerado tamaños de cadena del tipo $n = 1000 * 2^k$ con $k = 0, 1, ..., 10$. Para cada tamaño de cadena se han generado 10 casos de prueba aleatorios y se han medido sus tiempos de ejecución y calculado su mediana. \
+En este apartado se estudia el comportamiento temporal del algoritmo **DyV** mediante medidas empíricas sobre entradas de distinto tamaño.
 
-Cada caso de prueba se compone de un **"mejor caso"** y un **"peor caso"** con respecto al tiempo de ejecución. Siendo de este modo el mejor caso aquel en el que la cadena no forma ninguna subcadena válida: $aaaaa...$, y el peor caso aquel en el que la cadena forma el máximo número de subcadenas válidas: $abcdeabcde...$. Las funciones utilizadas son las siguientes, encontradas en el fichero [tiempos.cpp](https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/tiempos.cpp)
+### Metodología de medida
+Se han considerado tamaños de cadena del tipo $n = 1000 \cdot 2^k$ con $k = 0, 1, ..., 9$ (desde 1000 hasta 512000 caracteres). Para cada tamaño se han ejecutado **10 repeticiones** y se ha tomado la **mediana** del tiempo en microsegundos para reducir el efecto de valores atípicos.
+
+Cada prueba se divide en dos escenarios:
+- **Mejor caso**: cadena sin subcadenas válidas, del tipo $aaaaa...$
+- **Peor caso**: cadena que favorece el máximo de subcadenas válidas, del tipo $abcdeabcde...$
+
+Las funciones de generación de entrada utilizadas (en [tiempos.cpp](https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/tiempos.cpp)) son las siguientes:
 
 ```cpp
 string generarMejorCaso(int longitud) {
@@ -263,13 +270,37 @@ En la siguiente imagen se muestran los resultados obtenidos para ambos casos. Es
 
 | Gráfica de tiempos | Gráfica de tiempos con escala logarítmica |
 |---|---|
-| ![Gráfica de tiempos](assets/ajuster_mejor.jpg) | ![Gráfica de tiempos con escala logarítmica](assets/ajuster_mejor_log.jpg) |
+| ![Gráfica de tiempos](assets/scatter_plot.jpg) | ![Gráfica de tiempos con escala logarítmica](assets/scatter_plot_log.jpg) |
 
-# 🌑 Contraste.
+### Discusión de resultados
+De los datos obtenidos en `resultados.csv` se observa lo siguiente:
+- El **mejor caso** crece aproximadamente de forma lineal con $n$ (al duplicar $n$, el tiempo casi se duplica).
+- El **peor caso** es consistente con $\Theta(n\log^2 n)$, tal como se modela en `regresion.py`.
+- La separación entre ambos escenarios aumenta con el tamaño: para $n=1000$ el peor caso tarda alrededor de 11.6 veces más, y para $n=512000$ ronda 30 veces más.
+
+Este comportamiento concuerda con la implementación de DyV: en el peor caso hay más posiciones válidas que insertar y combinar, y al usar `set<int>` (inserciones logarítmicas) el coste de combinación se incrementa.
+
+# 🌑 Contraste
 <br> <br> <br>
 
-# 🃏 Conclusión y Valoración Personal.
-## Uso de la IA
+# 🃏 Conclusión y Valoración Personal
 
+En general, al colaborar en este proyecto hemos aprendido a valorar distintos aspectos más o menos tangentes a la informática a los que no les dabamos demasiada importancia, como pueden ser:
+- La gran utilidad de **sistemas de control de versiones** como Git junto a GitHub para organizar el trabajo en equipo, mantener un historial de cambios y facilitar la colaboración.
+- Cómo el diseño en **pseudocódigo** nos ayuda a estructurar el pensamiento antes de implementar, permitiendo detectar errores lógicos y optimizar la solución.
+- Lo importante que es la **eficiencia algorítmica**; aunque en un uso diario no nos demos cuenta, la elección de un algoritmo con peor complejidad puede marcar la diferencia entre algo que se ejecuta en segundos o en horas.
+- El uso ético y responsable de la [**inteligencia artificial**](#uso-de-la-ia), entendiendo sus limitaciones y aplicándola como una herramienta complementaria en lugar de un sustituto total del trabajo humano.
+
+## 🤖 Uso de la IA
+Siendo plenamente transparentes, admitimos que hemos utilizado diferentes agentes de IA, como:
+- **Gemini**, de Google
+- **GitHub Copilot**, de Microsoft
+- **Claude**, de Anthropic
+
+Los principales usos que les hemos dado han sido:
+- Guiarnos en la dirección correcta en cuanto al **diseño del algoritmo** (pseudocódigo).
+- Entender **aspectos más complejas de C++** que no dominábamos del todo (`set<int>`, `std::chrono`, e incluso el `struct Solucion`)
+- Ayudarnos a entender los códigos para la **medición de tiempos** y la **regresión de datos** proporcionados en el ejemplo, para así poder adaptarlos a nuestro proyecto.
+- **Tratar ciertos errores** que tenían que ver con el `Makefile` y con el uso incorrecto de asertos.
 
 
