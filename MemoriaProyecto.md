@@ -181,7 +181,21 @@ FIN FUNCIÓN
 # 🐤 Implementación.
 El proyecto tiene asociados los siguientes ficheros:
 - **main.cpp** ~ Fichero principal donde está todo el código en C++. <br>
-    _Este fichero se encuentra en: <br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/main.cpp_
+    _Este fichero se encuentra en: <br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/main.cpp_ <br>
+- **common.cpp** ~ Fichero con funciones auxiliares para imprimir la solución así como identificar las subcadenas validas. <br>
+    _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/common.cpp#L6_ <br>
+- **dyv.cpp** ~ Fichero con la función que realiza el estudio de las cadenas mediante la estrategia "Divide y Vencerás". <br>
+   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/dyv.cpp <br>
+- **iterativo.cpp** ~ Fichero con la función que realiza el estudio de las cadenas mediante la estrategia iterativa. <br>
+   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/iterativo.cpp <br>
+- **regresion.py** ~ Fichero que contiene el código que genera las gráficas de tiempos. <br>
+   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/regresion.py <br>
+- **testsAleatorios.cpp** ~ Fichero que contiene el código para generar cadenas aleatorias.
+   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/testsAleatorios.cpp <br>
+- **testsUnitarios.cpp** ~ Fichero que contiene el código para generar los casos de prueba mencionados en [# 📣 Validación](📣-Validación).
+   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/testsUnitarios.cpp <br>
+- **tiempos.cpp** ~ Fichero con el código para el cálculo de las longitudes de las cadenas y medianas de los tiempos.
+   _Este fichero se encuentra en: <br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/tiempos.cpp <br>
 <br> <br> <br>
 
 # 📣 Validación.
@@ -219,7 +233,6 @@ En la carpeta [inserte enlace a la carpeta] tenemos los ficheros de los casos de
 Cada función genera una cadena aleatoria con longitud de 5, 10, 20, 50, 100 o 1000 caracteres. A estas cadenas les aplica los algoritmos de DyV e Iteración
 <br> <br> <br>
 
-<br> <br> <br>
 # 🔍 Análisis teórico.
 
 El tiempo del algoritmo en el que se basa este codigo viene dado por la ecuación: [Teniendo en cuenta que _inicio_ = 'i'  y  _fin_ = f ] <br>
@@ -257,7 +270,7 @@ Una vez con esta ecuación podemos sacar el **mejor** y **peor** caso:
 >Por el Teorema Maestro, $t_m(n)$ pertenece a $\theta(n)$.
 - **PEOR CASO** $\rightarrow$ Combinar $\hookrightarrow O(n\log(n)) \rightarrow t(n) = 2t(\frac{n}{2}) + O(n\log(n))$ <br>
 >Por el Teorema Maestro, $t_M(n)$ pertenece a $\theta(n\cdot\log^2(n))$.
-
+>
 <br> <br> <br>
 # 🔬 Análisis experimental
 En este apartado se estudia el comportamiento temporal del algoritmo **DyV** mediante medidas empíricas sobre entradas de distinto tamaño.
@@ -316,8 +329,9 @@ De los datos obtenidos en `resultados.csv` se observa lo siguiente:
 - La separación entre ambos escenarios aumenta con el tamaño: para $n=1000$ el peor caso tarda alrededor de 11.6 veces más, y para $n=512000$ ronda 30 veces más.
 
 Este comportamiento concuerda con la implementación de DyV: en el peor caso hay más posiciones válidas que insertar y combinar, y al usar `set<int>` (inserciones logarítmicas) el coste de combinación se incrementa.
-
+<br> <br> <br>
 # 🌑 Contraste
+
 <br> <br> <br>
 
 # 🃏 Conclusión y Valoración Personal
