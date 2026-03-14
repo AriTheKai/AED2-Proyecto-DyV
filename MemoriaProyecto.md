@@ -221,10 +221,23 @@ Cada función genera una cadena aleatoria con longitud de 5, 10, 20, 50, 100 o 1
 
 <br> <br> <br>
 # 🔍 Análisis teórico.
-El tiempo del algoritmo en el que se basa este codigo viene dado por la ecuación: [Teniendo en cuenta que _inicio_ = 'i'  y  _fin_ = f] <br>
-$n = f - i + 1$ <br>
-Al dividirlo en $\lfloor i+f / 2 \lfloor$ se crean dos subproblemas, el izquierdo y el derecho. De esta manera tenemos que:
-$t(n) = t(n_1) + t(n_2)+ f(n) \rightarrow t(n)$ 
+Ahora podemos sutituir en la ecuación original, de manera que: <br>
+
+$t(n) = t(n_1) + t(n_2)+ f(n) \hookrightarrow t(n) = t(\lceil \frac{n}{1} \rceil) + t(\lfloor \frac{n}{2} \rfloor) + f(n)$
+
+Asumimos ahora que $n=2^k$, por lo que: <br>
+
+$t(n) = 2t(\frac{n}{2}) + f(n)$ <br><br>
+
+</div>
+
+Una vez con esta ecuación podemos sacar el **mejor** y **peor** caso:
+- **MEJOR CASO** $\rightarrow$ Combinar $\hookrightarrow O(1) \rightarrow t(n) = 2t(\frac{n}{2}) + O(1)$ <br>
+>Por el Teorema Maestro, $t_m(n)$ pertenece a $\theta(n)$.
+- **PEOR CASO** $\rightarrow$ Combinar $\hookrightarrow O(n\log(n)) \rightarrow t(n) = 2t(\frac{n}{2}) + O(n\log(n))$ <br>
+>Por el Teorema Maestro, $t_M(n)$ pertenece a $\theta(n\cdot\log^2(n))$. <br> 
+
+
 
 # 🔬 Análisis experimental
 En este apartado se estudia el comportamiento temporal del algoritmo **DyV** mediante medidas empíricas sobre entradas de distinto tamaño.
