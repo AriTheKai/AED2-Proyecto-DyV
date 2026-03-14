@@ -221,6 +221,28 @@ Cada función genera una cadena aleatoria con longitud de 5, 10, 20, 50, 100 o 1
 
 <br> <br> <br>
 # 🔍 Análisis teórico.
+
+El tiempo del algoritmo en el que se basa este codigo viene dado por la ecuación: [Teniendo en cuenta que _inicio_ = 'i'  y  _fin_ = f ] <br>
+
+$n = f - i + 1$ <br> <br>
+
+Al dividirlo en $\lfloor i+f / 2 \rfloor$ se crean dos subproblemas, el izquierdo y el derecho. De manera que: <br>
+
+$t(n) = t(n_1) + t(n_2)+ f(n)$ <br> <br>
+
+Además de ello podemos sacar los tamaños de los subproblemas: <br>
+$n_1 = m - i + 1$ <br>
+$n_2 = f - m$ <br> <br>
+
+Una vez tenemos esto, podemos sacar que: <br>
+$n = f - i + 1 \longrightarrow f=n+i-1$ <br> <br>
+
+$m=\lfloor\frac{i + f}{2} \rfloor \rightarrow m = \lfloor \frac{i+n+i-1}{2} \rfloor \rightarrow m=\lfloor \frac{2i + n-1}{2} \rfloor \longrightarrow m= \lfloor i + \frac{n-1}{2} \rfloor$ <br> <br>
+
+$n_1 = m-i+1 \rightarrow n_1 = i + \lfloor \frac{n-1}{2} \rfloor - i +1 \rightarrow n_1 = \lfloor \frac{n+1}{2} \rfloor \longrightarrow n_1 = \lceil \frac{n}{2} \rceil$ <br> <br>
+
+$n_2 = f-m \rightarrow n_2 = f-i + \lfloor \frac{n-1}{2} \rfloor \rightarrow n_2 = n+i-1-i-\lfloor \frac{n-1}{2} \rfloor \rightarrow n_2 = \lfloor \frac{2n-2-n-1}{2} \rfloor \rightarrow n_2 = \lfloor \frac{n-1}{2} \rfloor n_2 = \lfloor \frac{n}{2} \rfloor$ <br> <br>
+
 Ahora podemos sutituir en la ecuación original, de manera que: <br>
 
 $t(n) = t(n_1) + t(n_2)+ f(n) \hookrightarrow t(n) = t(\lceil \frac{n}{1} \rceil) + t(\lfloor \frac{n}{2} \rfloor) + f(n)$
@@ -229,16 +251,14 @@ Asumimos ahora que $n=2^k$, por lo que: <br>
 
 $t(n) = 2t(\frac{n}{2}) + f(n)$ <br><br>
 
-</div>
 
 Una vez con esta ecuación podemos sacar el **mejor** y **peor** caso:
 - **MEJOR CASO** $\rightarrow$ Combinar $\hookrightarrow O(1) \rightarrow t(n) = 2t(\frac{n}{2}) + O(1)$ <br>
 >Por el Teorema Maestro, $t_m(n)$ pertenece a $\theta(n)$.
 - **PEOR CASO** $\rightarrow$ Combinar $\hookrightarrow O(n\log(n)) \rightarrow t(n) = 2t(\frac{n}{2}) + O(n\log(n))$ <br>
->Por el Teorema Maestro, $t_M(n)$ pertenece a $\theta(n\cdot\log^2(n))$. <br> 
+>Por el Teorema Maestro, $t_M(n)$ pertenece a $\theta(n\cdot\log^2(n))$.
 
-
-
+<br> <br> <br>
 # 🔬 Análisis experimental
 En este apartado se estudia el comportamiento temporal del algoritmo **DyV** mediante medidas empíricas sobre entradas de distinto tamaño.
 
