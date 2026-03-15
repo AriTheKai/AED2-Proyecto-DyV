@@ -28,7 +28,9 @@ void ejecutarTest(string nombreTest, const string& A, Solucion esperada)
 int main()
 {
 
-    ejecutarTest("MEJOR CASO", "abc", {1, {0}});
+    ejecutarTest("MEJOR CASO VÁLIDO", "abc", {1, {0}});
+    ejecutarTest("CASO DEMASIADO CORTO", "ab", {0, {}});
+    ejecutarTest("MEJOR CASO INVÁLIDO", "zyx", {0, {}});
     ejecutarTest("PEOR CASO", "aaabbc", {0, {}});
     ejecutarTest("CASO PROMEDIO", "aabbde", {1, {3}});
     ejecutarTest("CASO TOTAL", "abcde", {3, {0, 1, 2}});
