@@ -6,32 +6,34 @@
           ~ Miembros del Grupo ~ <br> <br>
          🌱 Andrés Liza Pozo -> Grupo 2.3, andres.lizap@um.es <br>
          🌾 María Abellán Marín -> Grupo 2.3, m.abellanmarin@um.es <br> <br> <br> <br>
-⠀⠀⠀⠀⠀⠀⠀⣀⡄⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⡀⡀⠂⠂⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠐⢿⠓⠀⢀⡴⡏⠀⠀⠀⠀⠀⠀⣀⠔⢂⠁⠁⠀⠀⡐⠈⠀⠀⠀
-⠀⠀⠹⡒⠤⣀⡀⠀⢀⡴⠋⢠⠇⠀⠀⠀⠠⠐⠈⠀⠀⠀⠀⡀⠐⠁⡐⠁⠀⠀⠄
-⠀⠀⠀⠱⡀⠀⠉⠑⠋⠀⠀⣸⠀⠀⠐⠈⠀⠀⠀⠀⠀⢀⠄⠁⢀⠂⠀⠀⠀⠨⠀
-⠀⠀⠀⠀⢱⡄⠀⠀⠀⠀⠀⠉⠒⠤⣀⡀⠀⠀⠀⠀⡄⠁⠀⡀⠠⠁⠀⠀⠀⠁⠀
-⠀⠀⠀⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣈⠵⠦⡠⠈⠀⠀⠀⡐⠁⠀⠀⠀⠂⠀⠀
-⢀⡤⠋⣀⣀⣀⣤⠀⠀⠀⢰⠋⠉⠀⠀⠀⢀⠂⠀⠀⠀⠈⠠⠀⠀⠀⠀⠰⡁⠀⠀
-⠈⠉⠁⠀⠀⠀⠀⢧⠀⠀⡏⠀⠀⠀⠀⠔⠁⠀⠀⠀⠀⡐⠀⠀⠀⠀⠀⠅⠀⠀⠀
-⠀⢐⣶⣆⠀⠀⢠⠈⢇⢰⠃⠀⠀⠄⠁⠀⠀⢀⠀⢀⠂⠀⠀⣰⡄⠀⠂⠐⠀⠀⠀
-⠀⠈⠙⠀⠀⠀⣏⣧⠈⠟⠀⢀⠁⠀⠀⠀⠽⡿⠆⠇⠀⠀⢀⣿⣿⣦⣶⣶⠟⠀⠀
-⠀⠀⠀⠀⣀⣸⣿⣯⢧⠤⣤⣦⣴⠦⠀⠀⠀⠁⠀⠀⠛⠿⣿⣿⣿⣿⣿⡁⠀⠀⠀
-⠀⠙⠯⡻⣿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠰⣄⣠⡇⠀⠂⠀⠀⢸⣿⡿⠛⠛⠿⣆⠀⠀
-⠀⠀⠀⠈⢻⣿⣿⣿⣿⣿⠁⠀⠀⠀⣠⢿⣿⠟⠒⠀⠀⠀⠸⠊⠁⠀⢐⠀⠀⠀⠀
-⠀⠀⠀⠀⡾⣿⠿⠺⢝⡯⢧⠀⠀⠀⠀⠀⠻⠀⠀⠀⠂⠀⠀⠀⠀⡐⠂⠀⠀⠠⠁
-⠀⠀⠀⢼⠓⠁⠀⠀⠀⠉⠺⠆⠀⠀⠀⠀⠀⠀⠀⡸⠀⠀⢀⢿⠐⠀⠀⠀⡐⠁⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠂⠀⠀⡜⡌⡇⠀⠀⡐⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢟⡒⠒⠛⠁⠀⠘⠒⠒⢲⡶⠂⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣖⠀⠈⢢⠀⠀⠀⠀⡤⠛⠁⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⠉⠀⢠⠇⢀⡤⣀⠌⢳⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡿⠊⠁⠀⠈⠳⣼⡄⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠂⠈⠉⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡆⠀⣀⠀⠀⢀⣄⡀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠶⢾⣿⣟⠁⠀⠀⠺⡟⠃
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡏⢉⠓⠀⠀⠀⠀⠀
-
 </h1>
+<div align="center">
+⠀⠀⠀⠀⠀⠀⠀⣀⡄⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⡀⡀⠂⠂⠀⠀⠀<br>
+⠀⠀⠀⠀⠀⠀⠐⢿⠓⠀⢀⡴⡏⠀⠀⠀⠀⠀⠀⣀⠔⢂⠁⠁⠀⠀⡐⠈⠀⠀⠀<br>
+⠀⠀⠹⡒⠤⣀⡀⠀⢀⡴⠋⢠⠇⠀⠀⠀⠠⠐⠈⠀⠀⠀⠀⡀⠐⠁⡐⠁⠀⠀⠄<br>
+⠀⠀⠀⠱⡀⠀⠉⠑⠋⠀⠀⣸⠀⠀⠐⠈⠀⠀⠀⠀⠀⢀⠄⠁⢀⠂⠀⠀⠀⠨⠀<br>
+⠀⠀⠀⠀⢱⡄⠀⠀⠀⠀⠀⠉⠒⠤⣀⡀⠀⠀⠀⠀⡄⠁⠀⡀⠠⠁⠀⠀⠀⠁⠀<br>
+⠀⠀⠀⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣈⠵⠦⡠⠈⠀⠀⠀⡐⠁⠀⠀⠀⠂⠀⠀<br>
+⢀⡤⠋⣀⣀⣀⣤⠀⠀⠀⢰⠋⠉⠀⠀⠀⢀⠂⠀⠀⠀⠈⠠⠀⠀⠀⠀⠰⡁⠀⠀<br>
+⠈⠉⠁⠀⠀⠀⠀⢧⠀⠀⡏⠀⠀⠀⠀⠔⠁⠀⠀⠀⠀⡐⠀⠀⠀⠀⠀⠅⠀⠀⠀<br>
+⠀⢐⣶⣆⠀⠀⢠⠈⢇⢰⠃⠀⠀⠄⠁⠀⠀⢀⠀⢀⠂⠀⠀⣰⡄⠀⠂⠐⠀⠀⠀<br>
+⠀⠈⠙⠀⠀⠀⣏⣧⠈⠟⠀⢀⠁⠀⠀⠀⠽⡿⠆⠇⠀⠀⢀⣿⣿⣦⣶⣶⠟⠀⠀<br>
+⠀⠀⠀⠀⣀⣸⣿⣯⢧⠤⣤⣦⣴⠦⠀⠀⠀⠁⠀⠀⠛⠿⣿⣿⣿⣿⣿⡁⠀⠀⠀<br>
+⠀⠙⠯⡻⣿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠰⣄⣠⡇⠀⠂⠀⠀⢸⣿⡿⠛⠛⠿⣆⠀⠀<br>
+⠀⠀⠀⠈⢻⣿⣿⣿⣿⣿⠁⠀⠀⠀⣠⢿⣿⠟⠒⠀⠀⠀⠸⠊⠁⠀⢐⠀⠀⠀⠀<br>
+⠀⠀⠀⠀⡾⣿⠿⠺⢝⡯⢧⠀⠀⠀⠀⠀⠻⠀⠀⠀⠂⠀⠀⠀⠀⡐⠂⠀⠀⠠⠁<br>
+⠀⠀⠀⢼⠓⠁⠀⠀⠀⠉⠺⠆⠀⠀⠀⠀⠀⠀⠀⡸⠀⠀⢀⢿⠐⠀⠀⠀⡐⠁⠀<br>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠂⠀⠀⡜⡌⡇⠀⠀⡐⠀⠀⠀<br>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢟⡒⠒⠛⠁⠀⠘⠒⠒⢲⡶⠂⠀<br>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣖⠀⠈⢢⠀⠀⠀⠀⡤⠛⠁⠀⠀⠀<br>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⠉⠀⢠⠇⢀⡤⣀⠌⢳⠀⠀⠀⠀⠀<br>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡿⠊⠁⠀⠈⠳⣼⡄⠀⠀⠀⠀<br>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠂⠈⠉⠀⠀⠀⠀<br>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡆⠀⣀⠀⠀⢀⣄⡀<br>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠶⢾⣿⣟⠁⠀⠀⠺⡟⠃<br>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡏⢉⠓⠀⠀⠀⠀⠀<br>
+
+</div>
 
 
 # ‼️ Antes del Informe
@@ -42,9 +44,7 @@ Este informe/memoria de prácticas ha sido realizado por un humano (yo :3) a qui
 Dicho lo cual, espero que disfrutes leyendo nuestro informe de prácticas. <br> <br>
 Atte. Aris y Andy <3⠀<br>
 ˗ˏˋ ★ ˎˊ
-<br> 
-### ÍNDICE
-[inserte índice]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br> <br>⠀⠀⠀⠀⠀⠀⠀⠀
+<br> <br>⠀⠀⠀⠀⠀⠀⠀⠀
 
 # 📚 Enunciado del problema.
 
@@ -185,17 +185,17 @@ El proyecto tiene asociados los siguientes ficheros:
 - **common.cpp** ~ Fichero con funciones auxiliares para imprimir la solución así como identificar las subcadenas validas. <br>
     _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/common.cpp#L6_ <br>
 - **dyv.cpp** ~ Fichero con la función que realiza el estudio de las cadenas mediante la estrategia "Divide y Vencerás". <br>
-   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/dyv.cpp <br>
+   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/dyv.cpp_ <br>
 - **iterativo.cpp** ~ Fichero con la función que realiza el estudio de las cadenas mediante la estrategia iterativa. <br>
-   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/iterativo.cpp <br>
+   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/iterativo.cpp_ <br>
 - **regresion.py** ~ Fichero que contiene el código que genera las gráficas de tiempos. <br>
-   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/regresion.py <br>
+   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/regresion.py_ <br>
 - **testsAleatorios.cpp** ~ Fichero que contiene el código para generar cadenas aleatorias.
-   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/testsAleatorios.cpp <br>
-- **testsUnitarios.cpp** ~ Fichero que contiene el código para generar los casos de prueba mencionados en [# 📣 Validación](📣-Validación).
-   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/testsUnitarios.cpp <br>
-- **tiempos.cpp** ~ Fichero con el código para el cálculo de las longitudes de las cadenas y medianas de los tiempos.
-   _Este fichero se encuentra en: <br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/tiempos.cpp <br>
+   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/testsAleatorios.cpp_ <br>
+- **testsUnitarios.cpp** ~ Fichero que contiene el código para generar los casos de prueba mencionados en el apartado de Validación. <br>
+   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/testsUnitarios.cpp_ <br>
+- **tiempos.cpp** ~ Fichero con el código para el cálculo de las longitudes de las cadenas y medianas de los tiempos. <br>
+   _Este fichero se encuentra en: <br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/tiempos.cpp_ <br>
 <br> <br> <br>
 
 # 📣 Validación.
