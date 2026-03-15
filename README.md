@@ -58,9 +58,9 @@ make
 ```
 
 Para compilar un objetivo en especifico:
-- `make tiempos` $\leftsquigarrow$ `./tiempos`
-- `make testsAleatorios` $\leftsquigarrow$ `./testsAleatorios`
-- `make testsUnitarios` $\leftsquigarrow$ `./testsUnitarios`
+- `make tiempos` $\rightsquigarrow$ `./tiempos`
+- `make testsAleatorios` $\rightsquigarrow$ `./testsAleatorios`
+- `make testsUnitarios` $\rightsquigarrow$ `./testsUnitarios`
 <br> <br>
 
 # ⚔️ Ejecución
