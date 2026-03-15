@@ -4,8 +4,8 @@
        Profesor ~ Héctor Muñoz Ortiz <br>  <br>
            ˗ˏˋ ★ ˎˊ˗ <br>  <br>
           ~ Miembros del Grupo ~ <br> <br>
-         🌱 Andrés Liza Pozo -> Grupo 2.3, andres.lizap@um.es <br>
-         🌾 María Abellán Marín -> Grupo 2.3, m.abellanmarin@um.es <br> <br> <br> <br>
+         🌱 Andrés Liza Pozo ↣ Grupo 2.3, andres.lizap@um.es <br>
+         🌾 María Abellán Marín ↣ Grupo 2.3, m.abellanmarin@um.es <br> <br> <br> <br>
 </h1>
 <div align="center">
 ⠀⠀⠀⠀⠀⠀⠀⣀⡄⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⡀⡀⠂⠂⠀⠀⠀<br>
@@ -35,6 +35,22 @@
 
 </div>
 
+# Índice
+1. [‼️ Antes del Informe](#-antes-del-informe)
+2. [📚 Enunciado del problema](#-enunciado-del-problema)
+3. [🖍️ Diseño](#-diseño)
+    1. [🐌 Diseño Iterativo](#-diseño-iterativo)
+    2. [🦔 Diseño DyV](#-diseño-dyv)
+4. [🐤 Implementación](#-implementación)
+5. [📣 Validación](#-validación)
+    1. [Casos de Prueba](#-casos-de-prueba)
+    2. [Casos aleatorios](#-casos-aleatorios)
+6. [🔍 Análisis teórico](#-análisis-teórico)
+7. [🔬 Análisis experimental](#-análisis-experimental)
+8. [🌑 Contraste](#-contraste)
+9. [🃏 Conclusión y Valoración Personal](#-conclusión-y-valoración-personal)
+    1. [🤖 Uso de la IA](#-uso-de-la-ia)
+
 
 # ‼️ Antes del Informe
 
@@ -46,21 +62,21 @@ Atte. Aris y Andy <3⠀<br>
 ˗ˏˋ ★ ˎˊ
 <br> <br>⠀⠀⠀⠀⠀⠀⠀⠀
 
-# 📚 Enunciado del problema.
+# 📚 Enunciado del problema
 
 Dada una cadena $A$ con $n$ caracteres y un conjunto $S$ de 5 caracteres distintos, hay que encontrar todas las subcadenas de $A$ formadas por 3 elementos de $S$ sin repetir. Habrá que devolver como solución el número de subcadenas y su posición en la cadena $C$. Por ejemplo, si
 
 $A = abbfabcddfcbbade$ <br> $n=16$
 
-Si consideramos un conjunto de cinco caracteres <br>$S={a, b, c, d, e}$
+Si consideramos un conjunto de cinco caracteres <br>$S=\{a, b, c, d, e\}$
 
 La solución es $4$, en las posiciones $5, 6, 13$ y $14$ <br> <br> <br>
 
-# 🖍️ Diseño.
+# 🖍️ Diseño
 
 Al diseñar el algoritmo que resuelve este problema nos hemos basado en dos pseudocódigos previamente creados por nosotros, uno **iterativo** y otro con la estrategia de “***Divide y Vencerás***” <br> <br> <br>
 
-## 🐌 Diseño Iterativo.
+## 🐌 Diseño Iterativo
 
 Para una cadena $A$ de $n$ caracteres, el algoritmo va agrupando los caracteres de 3 en 3 y comparando que:
 
@@ -112,7 +128,7 @@ FIN FUNCIÓN
 ``` 
 <br> <br> <br>
 
-## 🦔 Diseño DyV .
+## 🦔 Diseño DyV
 
 El algoritmo de **Divide y Vencerás** se basa en la idea de:
 
@@ -178,30 +194,21 @@ FIN FUNCIÓN
 ```
 <br> <br> <br>
 
-# 🐤 Implementación.
+# 🐤 Implementación
 El proyecto tiene asociados los siguientes ficheros:
-- **main.cpp** ~ Fichero principal donde está todo el código en C++. <br>
-    _Este fichero se encuentra en: <br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/main.cpp_ <br>
-- **common.cpp** ~ Fichero con funciones auxiliares para imprimir la solución así como identificar las subcadenas validas. <br>
-    _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/common.cpp#L6_ <br>
-- **dyv.cpp** ~ Fichero con la función que realiza el estudio de las cadenas mediante la estrategia "Divide y Vencerás". <br>
-   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/dyv.cpp_ <br>
-- **iterativo.cpp** ~ Fichero con la función que realiza el estudio de las cadenas mediante la estrategia iterativa. <br>
-   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/iterativo.cpp_ <br>
-- **regresion.py** ~ Fichero que contiene el código que genera las gráficas de tiempos. <br>
-   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/regresion.py_ <br>
-- **testsAleatorios.cpp** ~ Fichero que contiene el código para generar cadenas aleatorias.
-   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/testsAleatorios.cpp_ <br>
-- **testsUnitarios.cpp** ~ Fichero que contiene el código para generar los casos de prueba mencionados en el apartado de Validación. <br>
-   _Este fichero se encuentra en:<br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/testsUnitarios.cpp_ <br>
-- **tiempos.cpp** ~ Fichero con el código para el cálculo de las longitudes de las cadenas y medianas de los tiempos. <br>
-   _Este fichero se encuentra en: <br> https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/tiempos.cpp_ <br>
+- **[common.cpp](https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/common.cpp)** ~ Fichero con funciones auxiliares para imprimir la solución así como identificar las subcadenas validas. <br>
+- **[dyv.cpp](https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/dyv.cpp)** ~ Fichero con la función que realiza el estudio de las cadenas mediante la estrategia "Divide y Vencerás". <br>
+- **[iterativo.cpp](https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/iterativo.cpp)** ~ Fichero con la función que realiza el estudio de las cadenas mediante la estrategia iterativa. <br>
+- **[regresion.py](https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/regresion.py)** ~ Fichero que contiene el código que genera las gráficas de tiempos. <br>
+- **[testsAleatorios.cpp](https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/testsAleatorios.cpp)** ~ Fichero que contiene el código para generar cadenas aleatorias. <br>
+- **[testsUnitarios.cpp](https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/testsUnitarios.cpp)** ~ Fichero que contiene el código para generar los casos de prueba mencionados en el apartado de Validación. <br>
+- **[tiempos.cpp](https://github.com/AriTheKai/AED2-Proyecto-DyV/blob/main/tiempos.cpp)** ~ Fichero con el código para el cálculo de las longitudes de las cadenas y medianas de los tiempos. <br>
 <br> <br> <br>
 
-# 📣 Validación.
+# 📣 Validación
 
-## Casos de Prueba.
-  **_Cadena S->_**  " $a, b, c, d, e$ " <br><br>
+## Casos de Prueba
+  **Conjunto $S= \{a, b, c, d, e\}$** <br><br>
 - **MEJOR CASO VÁLIDO:** Cadena de $3$ caracteres que pueden formar una subcadena <br>
     _Ejemplo:_ " $acd$ " <br>
     Salida esperada: ${1}$, { ${0}$ } <br> <br>
@@ -218,7 +225,7 @@ El proyecto tiene asociados los siguientes ficheros:
     _Ejemplo:_ " ${aaabbc}$ " <br>
     Salida esperada: $0$, {CONJUNTO VACÍO} <br> <br>
     
-- **CASO INTERMEDIO:** Existe una única subcadena, dentro de una cadena de más de $3$ caracteres. <br>
+- **CASO PROMEDIO:** Existe una única subcadena, dentro de una cadena de más de $3$ caracteres. <br>
     _Ejemplo:_ " ${aabbde}$ " <br>
     Salida esperada: ${1}$, { ${4}$ } <br> <br>
     
@@ -226,14 +233,14 @@ El proyecto tiene asociados los siguientes ficheros:
     _Ejemplo:_ " ${abcde}$ " <br>
     Salida esperada: ${3}$, { ${0, 1, 2}$ } <br><br>
  
-## Casos aleatorios.
+## Casos aleatorios
 
 En la carpeta [inserte enlace a la carpeta] tenemos los ficheros de los casos de prueba aleatorios.
 ### ¿Cómo funciona?
 Cada función genera una cadena aleatoria con longitud de 5, 10, 20, 50, 100 o 1000 caracteres. A estas cadenas les aplica los algoritmos de DyV e Iteración
 <br> <br> <br>
 
-# 🔍 Análisis teórico.
+# 🔍 Análisis teórico
 
 El tiempo del algoritmo en el que se basa este codigo viene dado por la ecuación: [Teniendo en cuenta que _inicio_ = 'i'  y  _fin_ = f ] <br>
 
@@ -272,6 +279,7 @@ Una vez con esta ecuación podemos sacar el **mejor** y **peor** caso:
 >Por el Teorema Maestro, $t_M(n)$ pertenece a $\theta(n\cdot\log^2(n))$.
 >
 <br> <br> <br>
+
 # 🔬 Análisis experimental
 En este apartado se estudia el comportamiento temporal del algoritmo **DyV** mediante medidas empíricas sobre entradas de distinto tamaño.
 
@@ -330,7 +338,19 @@ De los datos obtenidos en `resultados.csv` se observa lo siguiente:
 
 Este comportamiento concuerda con la implementación de DyV: en el peor caso hay más posiciones válidas que insertar y combinar, y al usar `set<int>` (inserciones logarítmicas) el coste de combinación se incrementa.
 <br> <br> <br>
+
 # 🌑 Contraste
+Para contrastar el [análisis teórico](#-análisis-teórico) con el [análisis experimental](#-análisis-experimental), se ha empleado la técnica de **regresión lineal**. Vamos a centrarnos solo en el peor caso:
+
+Partiendo de $t_M(n) \in \Theta(n\cdot\log^2(n))$, nuestra hipótesis es que $t_M(n) \approx c \cdot n \cdot \log^2(n) + d$ para un $n$ suficientemente grande. Esto implica que podemos ejecutar una regresión lineal sobre los puntos $(n \cdot \log^2(n), t_M(n))$ para cada dato medido $(n_i, t_M(n_i))$. De esto podemos obtener el **coeficiente de determinación** $R^2 \in [0, 1]$, que indica el grado de ajuste de la regresión a los datos. A mayor $R^2$, mejor ajuste. 
+
+Las imágenes a continuación muestran la regresión lineal realizada sobre los datos para el mejor y peor caso, respectivamente, empleando una escala logarítmica en el eje de las ordenadas para apreciar mejor la tendencia:
+
+| Regresión lineal para el mejor caso | Regresión lineal para el peor caso |
+|---|---|
+| ![Regresión lineal para el mejor caso](assets/ajuster_mejor_log.jpg) | ![Regresión lineal para el peor caso](assets/ajuster_peor_log.jpg) |
+
+En cuanto al **peor caso**, el valor de $R^2$ obtenido es de aproximadamente $0.998$, lo que indica un ajuste excelente a la función deducida teóricamente. Por otro lado, en el **mejor caso**, $R^2 = 1$, siendo un ajuste prácticamente perfecto.
 
 <br> <br> <br>
 
