@@ -3,6 +3,15 @@ Práctica que resuelve el problema 7 de la colección de ejercicios. Este proble
 El programa está escrito en C++ y, a parte de filtrar dichas subcadenas, se encarga de medir los tiempos y generar gráficas de estos últimos.
 <br> <br>
 
+# 🧩 Índice
+- [🧩 Estructura](#-estructura)
+- [ 🧨 Requisitos](#-requisitos)
+- [ 🚀 Compilación](#-compilación)
+- [ ⚔️ Ejecución](#-ejecución)
+- [ 📊 Análisis y gráficas (opcional)](#-análisis-y-gráficas-opcional)
+- [ 🧹 Limpieza](#-limpieza)
+<br> <br> 
+
 # 🛝 Estructura
 - **common.cpp** ~ Fichero con funciones auxiliares para imprimir la solución así como identificar las subcadenas validas.
 - **dyv.cpp** ~ Fichero con la función que realiza el estudio de las cadenas mediante la estrategia "Divide y Vencerás".
@@ -40,6 +49,36 @@ source .venv/bin/activate
 pip install pandas numpy matplotlib scipy
 ```
 <br> <br>
+
+# 🚀 Compilación
+
+Para compilar todo:
+```
+make
+```
+
+Para compilar un objetivo en especifico:
+- `make tiempos` $\leftsquigarrow$ `./tiempos`
+- `make testsAleatorios` $\leftsquigarrow$ `./testsAleatorios`
+- `make testsUnitarios` $\leftsquigarrow$ `./testsUnitarios`
+<br> <br>
+
+# ⚔️ Ejecución
+Para ejecutar el programa con los tiempos de las cadenas:
+```bash
+./tiempos
+ls -l resultados.csv
+```
+
+Para ejecutar los casos de prueba aleatorios:
+```bash
+./testsAleatorios
+```
+
+Para ejecutar los casos de prueba unitarios:
+```bash
+./testsUnitarios
+```
 
 # 📊 Análisis y gráficas (opcional)
 Con `resultados.csv`  generado, lanzar el script de regresión y guardar gráficas en PDF:
